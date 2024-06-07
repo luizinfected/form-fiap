@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: Archivo;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+.header {
+    background-color: #121214;
+    color: #ffffff;
+    padding: 3em;
+}
+
+.container {
+    width: 736px;
+    margin: 0 auto;
+}
+
+.formulario {
+    background-color: #ECECEC;
+    width: 50%;
+    padding: 64px;
+    margin: 0 auto;
+}
+
+.form-tittle {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+hr {
+    border-top: 1px solid #E6E6F0;
+    margin: 20px 0;
+}
+
+label,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 1em 0;
+}
+
+textarea {
+    border: solid 1px #D6D6D6;
+    border-radius: 8px;
+}
+
+
+input {
+    display: block;
+    border: solid 1px #D6D6D6;
+    border-radius: 8px;
+    height: 56px;
+    width: 100%;
+}
+
+.button{
+    background-color: #b40000;
+    width: 100%;
+    padding: 1em;
+    margin-top: 2em;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}

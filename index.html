@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio aula inaugural</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>POSTECH - FULLSTACK</h1>
+            <h3>Desafio aula inaugural</h3>
+        </div>
+    </header>
+
+    <div class="formulario">
+        <div class="form-wrapped">
+            <h1 class="form-tittle">Informações do grupo</h1>
+
+            <hr>
+
+            <form id="form" class="form" action="https://fsdt-contact-acf4ab9867a7.herokuapp.com/contact" method="post">
+                <label for="nomeUm">Nome</label>
+                <input class="input" type="text" name="nomeUm" id="nomeUm">
+
+                <label for="nomeDois">Nome</label>
+                <input class="input" type="text" name="nomeDois" id="nomeDois">
+
+                <label for="nomeTres">Nome</label>
+                <input class="input" type="text" name="nomeTres" id="nomeTres">
+
+                <label for="nomeQuatro">Nome</label>
+                <input class="input" type="text" name="nomeQuatro" id="nomeQuatro">
+
+                <label for="nomeCinco">Nome</label>
+                <input class="input" type="text" name="nomeCinco" id="nomeCinco">
+
+                <label for="historiaGP">História do grupo</label>
+                <textarea name="historiaGP" id="historiaGP"></textarea>
+
+                <button type="submit" class="button">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
